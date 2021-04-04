@@ -1,0 +1,49 @@
+body {
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+.card {
+  width: 500px;
+  min-height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(219, 225, 231);
+  display: flex;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.photo {
+  padding: 20px;
+}
+.pushistik-photo {
+  border-radius: 10px;
+  width: 200px;
+  height: auto;
+}
+.content {
+}
+.title {
+  margin-bottom: 0px;
+}
+.sub-title {
+  margin-top: 5px;
+  text-align: right;
+}
+uo {
+  list-style-type: none;
+}
+li {
+  padding-left: 60px;
+}
+.fas {
+  margin-right: 7px;
+}
+.phone {
+  margin-top: 10px;
+}
